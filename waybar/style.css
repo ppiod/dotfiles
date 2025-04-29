@@ -1,0 +1,87 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Segoe UI";
+    font-size: 13px;
+    font-weight: 500;
+    min-height: 0;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.75);
+    color: #FFFFFF;
+    transition: background-color .5s;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 5px 10px;
+    padding: 0 15px;
+    border-radius: 15px;
+}
+
+#tray {
+    margin-left: 15px;
+    padding: 0 15px;
+    background: rgba(30, 30, 30, 0.7);
+    border-radius: 15px;
+}
+
+#window.empty {
+    color: #aaaaaa;
+    font-style: italic;
+}
+
+#workspaces button {
+    background: transparent;
+    font-family: "SpaceMono Nerd Font", feather;
+    font-weight: 900;
+    font-size: 13pt;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+}
+
+#workspaces button.active {
+    background: #111111;
+}
+
+#workspaces button:hover {
+    background: #222222;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+#custom-void {
+    margin-left: 5px;
+    padding: 0 10px;
+    font-size: 25px;
+    color: #FFFFFF;
+    transition: color .5s;
+}
+
+#custom-void:hover {
+    color: #AAAAAA;
+}
+
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#tray:hover,
+#mode:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover,
+#power-profiles-daemon:hover,
+#language:hover,
+#mpd:hover {
+    background: rgba(255, 255, 255, 0.1);
+}

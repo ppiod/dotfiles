@@ -1,0 +1,40 @@
+theme = "horizon-dark"
+
+[editor]
+#line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "version-control", "spinner"]
+center = ["file-name", "selections"]
+right = ["diagnostics", "position", "position-percentage", "file-encoding", "file-type"]
+separator = ""
+mode.normal = "🅝 NORMAL"
+mode.insert = "🅘 INSERT"
+mode.select = "🅢 SELECT"
+
+[editor.lsp]
+enable = true
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25 
+max-indent-retain = 0
+wrap-indicator = ""
+
+[keys.insert]
+A-l = "@|"
+A-k = "@\\"
+
+[keys.normal]
+A-l = "@|"
+A-k = "@\\"

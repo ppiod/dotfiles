@@ -1,0 +1,24 @@
+[[language]]
+name = "elixir"
+auto-format = true
+formatter = { command = "mix", args = ["format", "-"] }
+language-servers = ["elixir-ls"]
+
+[language-server.elixir-ls]
+command = "elixir-ls"
+
+[[language]]
+name = "javascript"
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "babel"] }
+language-servers = ["tsserver"]
+
+[[language]]
+name = "typescript"
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "typescript"] }
+language-servers = ["tsserver"]
+
+[language-server.tsserver]
+command = "typescript-language-server"
+args = ["--stdio"]
