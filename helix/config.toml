@@ -1,8 +1,8 @@
 theme = "horizon-dark"
 
 [editor]
-#line-number = "relative"
-mouse = false
+line-number = "relative"
+mouse = true
 
 [editor.cursor-shape]
 normal = "block"
@@ -14,9 +14,9 @@ left = ["mode", "version-control", "spinner"]
 center = ["file-name", "selections"]
 right = ["diagnostics", "position", "position-percentage", "file-encoding", "file-type"]
 separator = ""
-mode.normal = "🅝 NORMAL"
-mode.insert = "🅘 INSERT"
-mode.select = "🅢 SELECT"
+mode.normal = " NORMAL"
+mode.insert = " INSERT"
+mode.select = " SELECT"
 
 [editor.lsp]
 enable = true

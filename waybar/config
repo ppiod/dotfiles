@@ -1,8 +1,8 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 28,
-    "spacing": 12,
+    "height": 32,
+    "spacing": 10,
     "modules-left": [
         "custom/void",
         "hyprland/workspaces"
@@ -17,8 +17,6 @@
         "memory",
         "temperature",
         "hyprland/language",
-        "battery",
-        "battery#bat2",
         "clock",
         "tray"
     ],

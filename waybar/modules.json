@@ -1,6 +1,6 @@
 {
     "custom/void": {
-        "format": "",
+        "format": "",
         "on-click": "wofi --show drun",
         "tooltip": false
     },
@@ -21,11 +21,11 @@
         "separator": true
     },
     "pulseaudio": {
-        "format": "{icon} {volume}%",
+        "format": "{icon}  {volume}%",
         "format-bluetooth": "{icon} {volume}% {format_source}",
-        "format-bluetooth-muted": "{icon}{format_source}",
-        "format-muted": "{format_source}",
-        "format-source": "{volume}%",
+        "format-bluetooth-muted": " {icon}{format_source}",
+        "format-muted": " {format_source}",
+        "format-source": " {volume}%",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -40,14 +40,14 @@
         "padding": 5
     },
     "network": {
-        "format-wifi": " {essid}",
-        "format-ethernet": " ",
-        "format-disconnected": " ",
+        "format-wifi": "  {essid}",
+        "format-ethernet": "  ",
+        "format-disconnected": "  ",
         "tooltip-format": "{ipaddr}",
         "padding": 5
     },
     "cpu": {
-        "format": " {usage}%",
+        "format": "  {usage}%",
         "tooltip": true,
         "padding": 5
     },
@@ -65,7 +65,7 @@
         "padding": 5
     },
     "hyprland/language": {
-        "format": " {}",
+        "format": "  {}",
         "format-en": "EN",
         "padding": 5
     },

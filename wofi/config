@@ -1,0 +1,11 @@
+show=drun
+prompt=❯
+insensitive=true
+term=foot
+allow-markup=true
+always_parse_args=true
+no_actions=true
+width=600
+height=400
+location=center
+

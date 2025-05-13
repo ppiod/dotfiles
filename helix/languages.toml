@@ -22,3 +22,12 @@ language-servers = ["tsserver"]
 [language-server.tsserver]
 command = "typescript-language-server"
 args = ["--stdio"]
+
+[[language]]
+name = "ruby"
+auto-format = true
+language-servers = ["solargraph"]
+
+[language-server.solargraph]
+command = "solargraph"
+args = ["stdio"]
